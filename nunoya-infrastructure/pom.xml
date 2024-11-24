@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>agileboot</artifactId>
-        <groupId>com.agileboot</groupId>
+        <artifactId>nunoya</artifactId>
+        <groupId>com.nunoya</groupId>
         <version>1.0.0</version>
     </parent>
     <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>agileboot-infrastructure</artifactId>
+    <artifactId>nunoya-infrastructure</artifactId>
 
     <description>
         infrastructure框架核心
@@ -57,8 +57,8 @@
 
         <!-- 通用模块-->
         <dependency>
-            <groupId>com.agileboot</groupId>
-            <artifactId>agileboot-common</artifactId>
+            <groupId>com.nunoya</groupId>
+            <artifactId>nunoya-common</artifactId>
         </dependency>
 
 
